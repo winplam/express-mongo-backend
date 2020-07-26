@@ -1,8 +1,8 @@
 {
-  "name": "express-mongo-backend",
+  "name": "mern-base",
   "version": "1.0.0",
-  "description": "Express Mongo Backend Application",
-  "main": "./server/server.js",
+  "description": "Express Mongo Base Application",
+  "main": "./dist/server.generated.js",
   "scripts": {
     "dev": "nodemon",
     "dev-env": "env-cmd ./config/dev.env nodemon",
@@ -14,9 +14,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/winplam/express-mongo-backend.git"
+    "url": "https://github.com/winplam/mern-base.git"
   },
-  "homepage": "https://github.com/winplam/express-mongo-backend",
+  "homepage": "https://github.com/winplam/mern-base",
   "keywords": [
     "express",
     "mern",
@@ -29,16 +29,20 @@
   "license": "MIT",
   "dependencies": {
     "@hot-loader/react-dom": "^16.13.0",
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
     "compression": "^1.7.4",
     "cookie-parser": "^1.4.5",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "express-jwt": "^6.0.0",
+    "file-loader": "^6.0.0",
     "helmet": "^3.23.3",
     "mongoose": "^5.9.25",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-hot-loader": "^4.12.21"
+    "react-hot-loader": "^4.12.21",
+    "react-router-dom": "^5.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.10.5",
@@ -55,11 +59,5 @@
     "webpack-dev-middleware": "^3.7.2",
     "webpack-hot-middleware": "^2.25.0",
     "webpack-node-externals": "^2.5.0"
-  },
-  "jest": {
-    "testEnvironment": "node",
-    "coveragePathIgnorePatterns": [
-      "/node_modules/"
-    ]
   }
 }

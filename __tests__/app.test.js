@@ -21,28 +21,28 @@ describe('Checking the standalone backend', () => {
     name: 'Jane2 Smith2',
     email: 'jane2@smith2.info',
   }
-  test('GET:/ - Hello World!', (done) => {
-    supertest(app)
-      .get('/')
-      .then((res) => {
-        expect(res.type).toBe('text/html')
-        expect(res.statusCode).toEqual(200)
-        expect(res.toJSON().text).toMatchInlineSnapshot(`
-          "<!doctype html>
-          <html lang=\\"en\\">
-             <head>
-                <meta charset=\\"utf-8\\">
-                <title>MERN Base Setup</title>
-             </head>
-             <body>
-                <div id=\\"root\\">Hello World!</div>
-                <script type=\\"text/javascript\\" src=\\"/dist/bundle.js\\"></script>
-             </body>
-          </html>"
-        `)
-        done()
-      })
-  })
+  // test('GET:/ - Hello World!', (done) => {
+  //   supertest(app)
+  //     .get('/')
+  //     .then((res) => {
+  //       expect(res.type).toBe('text/html')
+  //       expect(res.statusCode).toEqual(200)
+  //       expect(res.toJSON().text).toMatchInlineSnapshot(`
+  //         "<!doctype html>
+  //         <html lang=\\"en\\">
+  //            <head>
+  //               <meta charset=\\"utf-8\\">
+  //               <title>MERN Base Setup</title>
+  //            </head>
+  //            <body>
+  //               <div id=\\"root\\">Hello World!</div>
+  //               <script type=\\"text/javascript\\" src=\\"/dist/bundle.js\\"></script>
+  //            </body>
+  //         </html>"
+  //       `)
+  //       done()
+  //     })
+  // })
   test.each(users)('POST:/api/users - Creating new users', (user) => {
     return supertest(app)
       .post('/api/users')
