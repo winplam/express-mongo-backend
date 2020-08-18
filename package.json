@@ -7,8 +7,10 @@
     "dev": "nodemon",
     "dev-env": "env-cmd ./config/dev.env nodemon",
     "test": "jest --watchAll",
-    "test-env": "env-cmd ./config/test.env jest --watchAll",
-    "test-inband": "jest --watchAll --runInBand --detectOpenHandles",
+    "test:coverage": "jest --verbose --coverage",
+    "test:env": "env-cmd ./config/test.env jest --watchAll",
+    "test:inband": "jest --watchAll --runInBand --detectOpenHandles",
+    "test:verbose": "jest --watchAll --verbose",
     "build": "webpack --config webpack.config.client.production.js && webpack --mode=production --config webpack.config.server.js",
     "start": "NODE_ENV=production node ./dist/server.generated.js"
   },
@@ -29,6 +31,8 @@
   "license": "MIT",
   "dependencies": {
     "@hot-loader/react-dom": "^16.13.0",
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
     "compression": "^1.7.4",
     "cookie-parser": "^1.4.5",
     "cors": "^2.8.5",
@@ -38,13 +42,20 @@
     "mongoose": "^5.9.25",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-hot-loader": "^4.12.21"
+    "react-hot-loader": "^4.12.21",
+    "react-router-dom": "^5.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.10.5",
     "@babel/preset-env": "^7.10.4",
     "@babel/preset-react": "^7.10.4",
+    "@testing-library/jest-dom": "^5.11.2",
+    "@testing-library/react": "^10.4.8",
+    "@testing-library/user-event": "^12.1.1",
+    "axios": "^0.19.2",
     "babel-loader": "^8.1.0",
+    "file-loader": "^6.0.0",
+    "identity-obj-proxy": "^3.0.0",
     "jest": "^26.1.0",
     "mongodb-memory-server": "^6.6.1",
     "nodemon": "^2.0.4",
@@ -55,11 +66,5 @@
     "webpack-dev-middleware": "^3.7.2",
     "webpack-hot-middleware": "^2.25.0",
     "webpack-node-externals": "^2.5.0"
-  },
-  "jest": {
-    "testEnvironment": "node",
-    "coveragePathIgnorePatterns": [
-      "/node_modules/"
-    ]
   }
 }

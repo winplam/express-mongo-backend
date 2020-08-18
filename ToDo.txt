@@ -1,0 +1,6 @@
+TO DO NOTES
+- Fix testing image in client/core/Home.js
+  <CardMedia className={classes.media} image={unicornbikeImg} title="Unicorn Bicycle"/>
+* After finishing front end
+    - Console log history (from withRouter) in Menu.js
+    - Console log auth-helper.js & api-auth.js methods

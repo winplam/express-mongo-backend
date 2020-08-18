@@ -4,6 +4,9 @@ export default () => {
    <head>
       <meta charset="utf-8">
       <title>MERN Base Setup</title>
+<!--      <style>-->
+<!--        body {background-color: #0f0f0f;}-->
+<!--      </style>-->
    </head>
    <body>
       <div id="root">Hello World!</div>

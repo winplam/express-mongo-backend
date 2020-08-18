@@ -1,0 +1,727 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test the main Menu component Click all main menu buttons 1`] = `
+<div>
+  <header
+    class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary MuiPaper-elevation4"
+  >
+    <div
+      class="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
+    >
+      <h6
+        class="MuiTypography-root MuiTypography-h6 MuiTypography-colorInherit"
+      >
+        MERN Skeleton
+      </h6>
+      <a
+        href="/"
+      >
+        <button
+          aria-label="Home"
+          class="MuiButtonBase-root MuiIconButton-root"
+          style="color: rgb(255, 64, 129);"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiIconButton-label"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </a>
+      <a
+        href="/users"
+      >
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-text"
+          style="color: rgb(255, 255, 255);"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            Users
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </a>
+      <span>
+        <a
+          href="/signup"
+        >
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButton-text"
+            style="color: rgb(255, 255, 255);"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-label"
+            >
+              Sign Up
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </a>
+        <a
+          href="/signin"
+        >
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButton-text"
+            style="color: rgb(255, 255, 255);"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-label"
+            >
+              Sign In
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </a>
+      </span>
+    </div>
+  </header>
+</div>
+`;
+
+exports[`Test the main Menu component Click all main menu buttons 2`] = `
+<div>
+  <header
+    class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary MuiPaper-elevation4"
+  >
+    <div
+      class="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
+    >
+      <h6
+        class="MuiTypography-root MuiTypography-h6 MuiTypography-colorInherit"
+      >
+        MERN Skeleton
+      </h6>
+      <a
+        href="/"
+      >
+        <button
+          aria-label="Home"
+          class="MuiButtonBase-root MuiIconButton-root"
+          style="color: rgb(255, 255, 255);"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiIconButton-label"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </a>
+      <a
+        href="/users"
+      >
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-text"
+          style="color: rgb(255, 64, 129);"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            Users
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          >
+            <span
+              class="MuiTouchRipple-ripple MuiTouchRipple-rippleVisible"
+              style="width: 2.8284271247461903px; height: 2.8284271247461903px; top: -1.4142135623730951px; left: -1.4142135623730951px;"
+            >
+              <span
+                class="MuiTouchRipple-child MuiTouchRipple-childLeaving"
+              />
+            </span>
+          </span>
+        </button>
+      </a>
+      <span>
+        <a
+          href="/signup"
+        >
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButton-text"
+            style="color: rgb(255, 255, 255);"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-label"
+            >
+              Sign Up
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </a>
+        <a
+          href="/signin"
+        >
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButton-text"
+            style="color: rgb(255, 255, 255);"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-label"
+            >
+              Sign In
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </a>
+      </span>
+    </div>
+  </header>
+</div>
+`;
+
+exports[`Test the main Menu component Click all main menu buttons 3`] = `
+<div>
+  <header
+    class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary MuiPaper-elevation4"
+  >
+    <div
+      class="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
+    >
+      <h6
+        class="MuiTypography-root MuiTypography-h6 MuiTypography-colorInherit"
+      >
+        MERN Skeleton
+      </h6>
+      <a
+        href="/"
+      >
+        <button
+          aria-label="Home"
+          class="MuiButtonBase-root MuiIconButton-root"
+          style="color: rgb(255, 255, 255);"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiIconButton-label"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </a>
+      <a
+        href="/users"
+      >
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-text"
+          style="color: rgb(255, 255, 255);"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            Users
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          >
+            <span
+              class="MuiTouchRipple-ripple MuiTouchRipple-rippleVisible"
+              style="width: 2.8284271247461903px; height: 2.8284271247461903px; top: -1.4142135623730951px; left: -1.4142135623730951px;"
+            >
+              <span
+                class="MuiTouchRipple-child MuiTouchRipple-childLeaving"
+              />
+            </span>
+          </span>
+        </button>
+      </a>
+      <span>
+        <a
+          href="/signup"
+        >
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButton-text"
+            style="color: rgb(255, 64, 129);"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-label"
+            >
+              Sign Up
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            >
+              <span
+                class="MuiTouchRipple-ripple MuiTouchRipple-rippleVisible"
+                style="width: 2.8284271247461903px; height: 2.8284271247461903px; top: -1.4142135623730951px; left: -1.4142135623730951px;"
+              >
+                <span
+                  class="MuiTouchRipple-child MuiTouchRipple-childLeaving"
+                />
+              </span>
+            </span>
+          </button>
+        </a>
+        <a
+          href="/signin"
+        >
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButton-text"
+            style="color: rgb(255, 255, 255);"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-label"
+            >
+              Sign In
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </a>
+      </span>
+    </div>
+  </header>
+</div>
+`;
+
+exports[`Test the main Menu component Click all main menu buttons 4`] = `
+<div>
+  <header
+    class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary MuiPaper-elevation4"
+  >
+    <div
+      class="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
+    >
+      <h6
+        class="MuiTypography-root MuiTypography-h6 MuiTypography-colorInherit"
+      >
+        MERN Skeleton
+      </h6>
+      <a
+        href="/"
+      >
+        <button
+          aria-label="Home"
+          class="MuiButtonBase-root MuiIconButton-root"
+          style="color: rgb(255, 255, 255);"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiIconButton-label"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </a>
+      <a
+        href="/users"
+      >
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-text"
+          style="color: rgb(255, 255, 255);"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            Users
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          >
+            <span
+              class="MuiTouchRipple-ripple MuiTouchRipple-rippleVisible"
+              style="width: 2.8284271247461903px; height: 2.8284271247461903px; top: -1.4142135623730951px; left: -1.4142135623730951px;"
+            >
+              <span
+                class="MuiTouchRipple-child MuiTouchRipple-childLeaving"
+              />
+            </span>
+          </span>
+        </button>
+      </a>
+      <span>
+        <a
+          href="/signup"
+        >
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButton-text"
+            style="color: rgb(255, 255, 255);"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-label"
+            >
+              Sign Up
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            >
+              <span
+                class="MuiTouchRipple-ripple MuiTouchRipple-rippleVisible"
+                style="width: 2.8284271247461903px; height: 2.8284271247461903px; top: -1.4142135623730951px; left: -1.4142135623730951px;"
+              >
+                <span
+                  class="MuiTouchRipple-child MuiTouchRipple-childLeaving"
+                />
+              </span>
+            </span>
+          </button>
+        </a>
+        <a
+          href="/signin"
+        >
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButton-text"
+            style="color: rgb(255, 64, 129);"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-label"
+            >
+              Sign In
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            >
+              <span
+                class="MuiTouchRipple-ripple MuiTouchRipple-rippleVisible"
+                style="width: 2.8284271247461903px; height: 2.8284271247461903px; top: -1.4142135623730951px; left: -1.4142135623730951px;"
+              >
+                <span
+                  class="MuiTouchRipple-child MuiTouchRipple-childLeaving"
+                />
+              </span>
+            </span>
+          </button>
+        </a>
+      </span>
+    </div>
+  </header>
+</div>
+`;
+
+exports[`Test the main Menu component Click all main menu buttons 5`] = `
+<div>
+  <header
+    class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary MuiPaper-elevation4"
+  >
+    <div
+      class="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
+    >
+      <h6
+        class="MuiTypography-root MuiTypography-h6 MuiTypography-colorInherit"
+      >
+        MERN Skeleton
+      </h6>
+      <a
+        href="/"
+      >
+        <button
+          aria-label="Home"
+          class="MuiButtonBase-root MuiIconButton-root"
+          style="color: rgb(255, 64, 129);"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiIconButton-label"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          >
+            <span
+              class="MuiTouchRipple-ripple MuiTouchRipple-rippleVisible"
+              style="width: 1px; height: 1px; top: -0.5px; left: -0.5px;"
+            >
+              <span
+                class="MuiTouchRipple-child MuiTouchRipple-childLeaving"
+              />
+            </span>
+          </span>
+        </button>
+      </a>
+      <a
+        href="/users"
+      >
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-text"
+          style="color: rgb(255, 255, 255);"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            Users
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          >
+            <span
+              class="MuiTouchRipple-ripple MuiTouchRipple-rippleVisible"
+              style="width: 2.8284271247461903px; height: 2.8284271247461903px; top: -1.4142135623730951px; left: -1.4142135623730951px;"
+            >
+              <span
+                class="MuiTouchRipple-child MuiTouchRipple-childLeaving"
+              />
+            </span>
+          </span>
+        </button>
+      </a>
+      <span>
+        <a
+          href="/signup"
+        >
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButton-text"
+            style="color: rgb(255, 255, 255);"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-label"
+            >
+              Sign Up
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            >
+              <span
+                class="MuiTouchRipple-ripple MuiTouchRipple-rippleVisible"
+                style="width: 2.8284271247461903px; height: 2.8284271247461903px; top: -1.4142135623730951px; left: -1.4142135623730951px;"
+              >
+                <span
+                  class="MuiTouchRipple-child MuiTouchRipple-childLeaving"
+                />
+              </span>
+            </span>
+          </button>
+        </a>
+        <a
+          href="/signin"
+        >
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButton-text"
+            style="color: rgb(255, 255, 255);"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-label"
+            >
+              Sign In
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            >
+              <span
+                class="MuiTouchRipple-ripple MuiTouchRipple-rippleVisible"
+                style="width: 2.8284271247461903px; height: 2.8284271247461903px; top: -1.4142135623730951px; left: -1.4142135623730951px;"
+              >
+                <span
+                  class="MuiTouchRipple-child MuiTouchRipple-childLeaving"
+                />
+              </span>
+            </span>
+          </button>
+        </a>
+      </span>
+    </div>
+  </header>
+</div>
+`;
+
+exports[`Test the main Menu component Main Menu matches snapshot 1`] = `
+<div>
+  <header
+    class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary MuiPaper-elevation4"
+  >
+    <div
+      class="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
+    >
+      <h6
+        class="MuiTypography-root MuiTypography-h6 MuiTypography-colorInherit"
+      >
+        MERN Skeleton
+      </h6>
+      <a
+        href="/"
+      >
+        <button
+          aria-label="Home"
+          class="MuiButtonBase-root MuiIconButton-root"
+          style="color: rgb(255, 64, 129);"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiIconButton-label"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </a>
+      <a
+        href="/users"
+      >
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-text"
+          style="color: rgb(255, 255, 255);"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            Users
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </a>
+      <span>
+        <a
+          href="/signup"
+        >
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButton-text"
+            style="color: rgb(255, 255, 255);"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-label"
+            >
+              Sign Up
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </a>
+        <a
+          href="/signin"
+        >
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButton-text"
+            style="color: rgb(255, 255, 255);"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-label"
+            >
+              Sign In
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </a>
+      </span>
+    </div>
+  </header>
+</div>
+`;

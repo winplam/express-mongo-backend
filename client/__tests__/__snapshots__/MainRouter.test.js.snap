@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`home container matches snapshot 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiCard-root makeStyles-card-1 MuiPaper-elevation1 MuiPaper-rounded"
+  >
+    <h6
+      class="MuiTypography-root makeStyles-title-2 MuiTypography-h6"
+    >
+      Home Page
+    </h6>
+    <p
+      class="MuiTypography-root makeStyles-credit-4 MuiTypography-body2 MuiTypography-colorTextSecondary"
+    >
+      Photo by
+      <a
+        href="https://unsplash.com/@boudewijn_huysmans"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        Boudewijn Huysmans
+      </a>
+      on Unsplash
+    </p>
+    <div
+      class="MuiCardContent-root"
+    >
+      <p
+        class="MuiTypography-root MuiTypography-body1"
+      >
+        Welcome to the MERN Skeleton home page.
+      </p>
+    </div>
+  </div>
+</div>
+`;
